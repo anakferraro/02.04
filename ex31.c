@@ -6,11 +6,10 @@ int main(void) {
   while( x < 20 ) {
     x++;      
     if( x % 3 == 0 ) {
-      continue; // salta a impressão dos múltiplos de 3
+      continue; 
     }
     printf("%d ", x);
   }
-
-  printf("\nValor atual de x: %d", x);
+printf("\nValor atual de x: %d", x);
   return 0;
 }
